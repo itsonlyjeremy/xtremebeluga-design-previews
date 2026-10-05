@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Us | Xtreme Beluga</title>
+<meta name="description" content="Xtreme Beluga is an SDI diving centre based in Singapore and Malaysia, teaching divers since 2012.">
+<link rel="icon" type="image/png" href="sites/default/files/Snip20180418_9_1.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/reef.css">
+</head>
+<body>
+<div style="background:#0a1230;color:#fff;text-align:center;padding:9px 16px;font:600 13.5px/1.5 Outfit,system-ui,sans-serif">Design preview &middot; the contact form is disabled here</div>
+<a class="sr" href="#main">Skip to content</a>
+<nav class="nav" aria-label="Main">
+  <a class="nav__logo" href="index.html"><img src="sites/default/files/XtremeBelugaLOGO_Long_4C-01%20copy.png" alt="Xtreme Beluga"></a>
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span></button>
+  <ul class="nav__list" id="navlist"><li><a href="index.html">Home</a></li><li><a href="about-us.html" aria-current="page">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="destinations.html">Destinations</a></li><li><a href="contact.html">Contact</a></li></ul>
+  <a class="nav__cta" href="contact.html">Dive With Us</a>
+</nav>
+<main id="main">
+<header class="phero"><img class="phero__img" src="sites/default/files/anambas.png" alt=""><div class="wrap">
+<span class="phero__kick">About us</span>
+<h1 class="h-page">Where every dive is an adventure</h1>
+</div></header>
+<section class="sec" style="padding-top:0"><div class="wrap narrow prose">
+<p>We are folks from all walks of life, brought together by our love for the sea and belief that scuba diving trips must be delivered with the highest quality of safety and professionalism. Combining our enthusiasm, and our years of experience, we want to share the beauty of the sea with you. Our greatest satisfaction comes in seeing you experience the wonders of the sea and learn the necessary skills to explore the sea safely.</p><p>Xtreme Beluga aims to be your one stop dive center for dive courses and dive holidays.</p><p>Based in Singapore and Malaysia and established in 2012, this company is the brain-child of 4 marine sports enthusiasts who understand that good training do make a difference between a mediocre weekend of diving.</p><p>We take pride in delivery high service standards, safety procedures as well as professional teaching, Xtreme Beluga will strive to ensure your course and/or holidays are enjoyable and meaningful.</p>
+</div></section>
+<section class="sec sec--soft"><div class="wrap"><div class="stats"><div><b class='grad'>14</b><span>Years Diving</span></div><div><b class='grad'>8</b><span>Instructors</span></div><div><b class='grad'>28</b><span>Crew</span></div><div><b class='grad'>100%</b><span>Fun</span></div></div></div></section>
+<section class="sec"><div class="wrap"><div class="cta">
+<h2 class="h-sec">Ready to get in the water?</h2><p>Tell us what you want to dive and we will sort the rest.</p>
+<a class="btn btn--white" href="contact.html">Get in touch</a></div></div></section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div><div class="foot__logo"><img src="sites/default/files/XtremeBelugaLOGO_Long_4C-01%20copy.png" alt="Xtreme Beluga"></div>
+        <p style="font-size:14.5px;max-width:34ch">An SDI diving centre based in Singapore and Malaysia, teaching divers since 2012.</p></div>
+      <div><h2>Courses</h2><ul>
+        <li><a href="open-water.html">Open Water</a></li>
+        <li><a href="advanced-adventure.html">Advanced Adventure</a></li>
+        <li><a href="rescue-diver.html">Rescue Diver</a></li>
+        <li><a href="dive-master.html">Dive Master</a></li></ul></div>
+      <div><h2>Destinations</h2><ul>
+        <li><a href="lembeh.html">Lembeh</a></li>
+        <li><a href="anilao.html">Anilao</a></li>
+        <li><a href="sipadan.html">Sipadan</a></li></ul>
+        <h2 style="margin-top:22px">Get in touch</h2><ul>
+        <li><a href="mailto:corporate@xtremebeluga.com">corporate@xtremebeluga.com</a></li></ul>
+        <div class="foot__social">
+          <a href="https://www.facebook.com/XtremeBeluga/" rel="noopener" aria-label="Xtreme Beluga on Facebook">
+            <img src="sites/default/files/facebook-icon-black-transparent-7.png" alt="Facebook" width="22" height="22" loading="lazy"></a>
+          <a href="https://www.instagram.com/xtremebeluga/" rel="noopener" aria-label="Xtreme Beluga on Instagram">
+            <img src="sites/default/files/instagram-new.png" alt="Instagram" width="22" height="22" loading="lazy"></a>
+        </div></div>
+    </div>
+    <div class="foot__bot">
+      <span>&copy; <span class="xb-year">2026</span> Xtreme Beluga &middot; An SDI Diving Centre</span>
+      <span><a href="terms-conditions.html">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+document.querySelectorAll(".xb-year").forEach(function(e){e.textContent=new Date().getFullYear();});
+(function(){
+  var b=document.getElementById("burger"), l=document.getElementById("navlist");
+  if(!b||!l) return;
+  b.addEventListener("click",function(){
+    var open=l.classList.toggle("open");
+    b.setAttribute("aria-expanded",open?"true":"false");
+  });
+  l.addEventListener("click",function(e){ if(e.target.tagName==="A") l.classList.remove("open"); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape") l.classList.remove("open"); });
+})();
+
+</script>
+</body>
+</html>
